@@ -18,7 +18,7 @@ Keypad keypad = Keypad( makeKeymap(keys), pin_rows, pin_column, ROW_NUM, COLUMN_
 int len = 0;
 String kp = "";
 String pasword = "";
-String rpasword = ""; // youre passwrod goes here
+String rpasword = ""; // youre password goes here
 
 int pr = 0;
 
