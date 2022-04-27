@@ -45,6 +45,7 @@ void loop() {
       }
     }
   }
+  // you can delete this part if you dont use serial comunication
   x = Serial.readString().toInt();
   for (int i = 0; i < x + 1; i++){
     Serial.println(x - i);
